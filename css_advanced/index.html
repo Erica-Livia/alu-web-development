@@ -9,11 +9,11 @@
 	</head>
 
 	<body>
-		<header>
+		<header class="section header">
 			<div>
 				<a href=""><img src="./items/images/logo.png" alt="logo"></a>
 			</div>
-			<div>
+			<div class="header__nav">
 				<a href="www.instagram.com">Instagram</a>
 				<a href="www.facebook.com">Facebook</a>
 				<a href="www.whatsapp.com">Whatsapp</a>
@@ -22,169 +22,234 @@
 		</header>
 
 		<main>
-			<section>
+			<section class="banner">
 				<div>
-					<h1>Hello World</h1>
-					<p>The first C program in the book "The C Programming Language" was to print "hello world!" on the screen. Since then it is used as the first program to introduce the basic details of a programming language.</p>
-				<button>HELLO WORLD!</button>
+					<h1>Get Schooled</h1>
+					<p class="title title--sm title--light banner__sub-header">
+						<span>SMILES</span> <span>GRIN</span> <span>LAUGH</span>
+					</p>
+				<button class="button">Register for free</button>
 
 				<div>
-					<h2>HTML: HyperText Markup Language</h2>
+					<h2 class="title title--light">
+						<span class="title__emp">Learn</span> from the pros
+					</h2>
 				</div>
 
-				<div>
-					<div>
-						<img src="./items/images/download.jpg" alt="Graduation">
-						<h3>Graduation Party</h3>
-						<p>Graduation is the successful completion of a course of study at a university, college, or school, for which you receive a degree or diploma.</p>
+				<div class="banner__pro-list">
+					<div class="banner__pro-list">
+						<img src="./items/images/download.jpg" alt="">
+						<h3 class="title title--xs title--light banner__pro-title" ></h3>
+						<p>
+							&NestedLessLess; Smile of the year &NestedGreaterGreater; <br />
+							2018-2019
+						</p>
 					</div>
 
 					<div>
-						<img src="./items/images/crop.jpg" alt="crop">
-						<h3> Harley Quinn</h3>
-						<p>Harley Quinn is a character appearing in American comic books published by DC Comics. </p>
+						<img class="banner__pro-img" src="./items/images/crop.jpg" alt="">
+						<h3 class="title title--xs title--light banner__pro-title" >Nannie Lawrence</h3>
+						<p>
+							Best &NestedLessLess;little smile&NestedGreaterGreater; <br />
+							2017
+						</p>
 					</div>
 
 					<div>
-						<img src="./items/images/71ekIy1RVPL.jpg" alt="women">
-						<h3>Women Empowerment</h3>
-						<p>Women's empowerment can be defined to promoting women's sense of self-worth, their ability to determine their own choices, and their right to influence.</p>
+						<img class="banner__pro-img" src="./items/images/71ekIy1RVPL.jpg" alt="">
+						<h3 class="title title--xs title--light banner__pro-title" >Bruce Walters</h3>
+						<p>
+							Best &NestedLessLess;Friend Smile&NestedGreaterGreater; <br />
+							2019
+						</p>
 					</div>
 
 					<div>
-						<img src="./items/images/pp.jpg" alt="music">
-						<h3> Music Therapy</h3>
-						<p>Music Therapy is the clinical & evidence-based use of music interventions to accomplish individualized goals within a therapeutic relationship by a credentialed professional who has completed an approved music therapy program.</p>
+						<img class="banner__pro-img" src="./items/images/pp.jpg" alt="">
+						<h3 class="title title--xs title--light banner__pro-title" >Phillip Massey</h3>
+						<p>
+							&NestedLessLess;24h smiles&NestedGreaterGreater; winner <br />
+							2016-2019
+						</p>
 					</div>
 				</div>
 
 			</section>
 
-			<section>
+			<section class ="quote">
 
 				<div>
-					<img src="./items/images/kgl.jpg" alt="Kigali">
-					<div>
+					<img src="./items/images/kgl.jpg" alt="">
+					<div class="quote__body">
 						<blockquote>
 							&NestedLessLess; Hide yourself in God, so when a man wants to find you he will have to go there first. &NestedGreaterGreater;
 						</blockquote>
-						<p>Shannon L. Alder</p>
-						<p>Inspiration author</p>
-					</div>		
-					
+						<p class="title title--sm title--light">Shannon L. Alder</p>
+						<p class="title title--light title--italic">Inspiration author</p>
+					</div>			
 				</div>
 
 			</section>
 
-			<section>
+			<section class="section videos">
 
-				<h1>Videos</h1>
-				<div>
-					<div>
-						<img src="./items/images/ai.webp" alt="AI">
-						<h2 class="videotitle">Artificial Intelligence</h2>
-						<p class="video-desc">AI can meaningfully improve people's lives and that the biggest impact will come when everyone can access it.</p>
-						<div class="author">
-							<img src="./items/images/carys.jpg" alt="carys">
-							<h3>Carys Craig</h3>
-						</div>
-			
-						<div class="rating">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st2.jpg" alt="star">
-							<span>8 min</span>
-						</div>
-					</div>
-
-					<div>
-						<img src="./items/images/WhatsApp%20Image%202022-06-20%20at%205.41.58%20PM.jpeg" alt="image">
-						<h2 class="videotitle">ALU Rwanda Campus</h2>
-						<p>African Leadership University is a university built to educate the next generation of ethical and entrepreneurial leaders for the continent and the world.</p>
+				<h1 class="title title--md videos__title">Videos</h1>
+				
+				<div class="videos__list">
+					<div class="video__list">
+						<div class="videos__item">
+							<div class="videos__item-img-wrapper">
+								<img src="./images/smile.png" alt="" />
+								<img src="./items/" alt="" class="play" />
+							</div>
+							<h2 class="text text--sm text--red">Happy Smile</h2>
+							<p class="text text--sm text--gray videos__item-text">
+								Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+								eiusmod.
+							</p>
 						
-					</div>
+							<div class="videos__item-author">
+								<img src="./items/images/pp.jpg" class="videos__item-author-img" alt="" >
+								<h3 class="text text-sm text--red">Phillip Massey</h3>
+							</div>
+							<div class="videos__item-stars">
+								<div>
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items.images/st2.jpg" alt="star">							
+								</div>
+								<span class="text text--sm text--red">8 min</span>
+							</div>	
+						</div>
 					
-					<div class="rating">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st2.jpg" alt="star">
-							<span>8 min</span>
+						<div class="videos__item">
+							<div class="videos__item-img-wrapper">
+								<img src="./images/smile.png" alt="" />
+								<img src="./items/" alt="" class="play" />
+							</div>
+							<h2 class="text text--sm text--red">Happy Smile</h2>
+							<p class="text text--sm text--gray videos__item-text">
+								Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+								eiusmod.
+							</p>
+					
+							<div class="videos__item-author">
+								<img src="./items/images/pp.jpg" class="videos__item-author-img" alt="" >
+								<h3 class="text text-sm text--red">Phillip Massey</h3>
+							</div>
+							<div class="videos__item-stars">
+								<div>
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items.images/st2.jpg" alt="star">							
+								</div>
+								<span class="text text--sm text--red">8 min</span>
+							</div>	
+						</div>
+					</div>
 
-					<div>
-						<img src="./items/images/hq.png" alt="hq">
-						<h2 class="videotitle">Birds of Prey</h2>
-						<p>The film "Birds of Prey" follows Harley Quinn, who, after breaking up with the Joker, is threatened by Gotham City crime lord Roman Sionis, and joins forces with Helena</p>
-					</div>
-					
-					<div class="rating">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st2.jpg" alt="star">
-							<span>8 min</span>
+					<div class="videos__item">
+							<div class="videos__item-img-wrapper">
+								<img src="./images/smile.png" alt="" />
+								<img src="./items/" alt="" class="play" />
+							</div>
+							<h2 class="text text--sm text--red">Happy Smile</h2>
+							<p class="text text--sm text--gray videos__item-text">
+								Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+								eiusmod.
+							</p>
+						
+							<div class="videos__item-author">
+								<img src="./items/images/pp.jpg" class="videos__item-author-img" alt="" >
+								<h3 class="text text-sm text--red">Phillip Massey</h3>
+							</div>
+							<div class="videos__item-stars">
+								<div>
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items/st1.svg" alt="star">
+									<img src=".items.images/st2.jpg" alt="star">							
+								</div>
+								<span class="text text--sm text--red">8 min</span>
+							</div>	
+						</div>
 					</div>
 						
-					<div>
-						<img src="./items/images/pp.jpg">
-						<h2 class="videotitle">Billie Eillish</h2>
-						<p>Billie Eilish, in full Billie Eilish Pirate Baird O'Connell, (born December 18, 2001, Los Angeles, California, U.S.), American singer-songwriter who first gained recognition in 2015 for the song “Ocean Eyes” and became, in 2020, the youngest person ever to win a Grammy for album of the year.</p>
-					</div>
+					<div class="videos__item">
+						<div class="videos__item-img-wrapper">
+							<img src="./images/smile.png" alt="" />
+							<img src="./items/" alt="" class="play" />
+						</div>
+						<h2 class="text text--sm text--red">Happy Smile</h2>
+						<p class="text text--sm text--gray videos__item-text">
+							Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+							eiusmod.
+						</p>
 					
-					<div class="rating">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st1.jpg" alt="star">
-							<img src=".items.images/st2.jpg" alt="star">
-							<span>8 min</span>
+						<div class="videos__item-author">
+							<img src="./items/images/pp.jpg" class="videos__item-author-img" alt="" >
+							<h3 class="text text-sm text--red">Phillip Massey</h3>
+						</div>
+						<div class="videos__item-stars">
+							<div>
+								<img src=".items/st1.svg" alt="star">
+								<img src=".items/st1.svg" alt="star">
+								<img src=".items/st1.svg" alt="star">
+								<img src=".items/st1.svg" alt="star">
+								<img src=".items.images/st2.jpg" alt="star">							
+							</div>
+							<span class="text text--sm text--red">8 min</span>
+						</div>	
 					</div>
-				</div>
+				</div>	
 
 			</section>
 				
 			<section>
-				<h1>MEMBERSHIP</h1>
-				<div>
-					<div>
+				<h1 class="section title title--md title--light member__title">
+					MEMBERSHIP
+				</h1>
+				<div class="section member__list">
+					<div class="member__item">
 						<img src="./items/images/sml.png" alt="sml">
-						<h2>Lorem ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.g</p>
+						<h2 class="title title--sm title--light member__item-title">Lorem ipsum</h2>
+						<p class="text text--sm text--light member__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.g</p>
 					</div>
 					
-					<div>
+					<div class="member__item">
 						<img src="./items/images/sml.png" alt="sml">
-						<h2>Lorem ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<h2 class="title title--sm title--light member__item-title">Lorem ipsum</h2>
+						<p class="text text--sm text--light member__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					
-					<div>
+					<div class="member__item">
 						<img src="./items/images/sml.png" alt="sml">
-						<h2>Lorem ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<h2 class="title title--sm title--light member__item-title">Lorem ipsum</h2>
+						<p class="text text--sm text--light member__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					
-					<div>
+					<div class="member__item">
 						<img src="./items/images/sml.png" alt="sml">
-						<h2>Lorem ipsum</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<h2 class="title title--sm title--light member__item-title"></h2>Lorem ipsum</h2>
+						<p class="text text--sm text--light member__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 				</div>
 				
-				<button>START OUR ONE MONTH TRIAL FOR FREE</button>
+				<button class="button member__register">START OUR ONE MONTH TRIAL FOR FREE</button>
 			</section>
 			
-			<section>
-				<h1>F.A.Q.</h1>
-				<div>
-					<div>
-						<div> 
-							<h2>How does this work?</h2>
-							<p>
+			<section class="section faq">
+				<h1 class="title title--avg title--thin faq__title">F.A.Q.</h1>
+				<div class="faq__list">
+					<div class="faq__row">
+						<div class="faq__item"> 
+							<h2 class="tittle title--xs faq__item-title">How does this work?</h2>
+							<p class="text text--sm faq__item-text">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -195,9 +260,9 @@
 							</p>
 						</div>
 						
-						<div>        
-							<h2>How does this work?</h2>
-							<p>
+						<div class="faq__item">        
+							<h2 class="tittle title--xs faq__item-title">How does this work?</h2>
+							<p class="text text--sm faq__item-text">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do        
 								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -209,10 +274,10 @@
 						</div>
 					</div>
 					
-					<div>
-						<div>
-							<h2>How does this work?</h2>
-							<p>
+					<div  class="faq__row faq__row--last">
+						<div class="faq__item">
+							<h2 class="tittle title--xs faq__item-title">How does this work?</h2>
+							<p class="text text--sm faq__item-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -223,9 +288,9 @@
 							</p>
 						</div>
 						
-						<div>
-							<h2>How does this work?</h2>
-							<p>
+						<div class="faq__item">
+							<h2 class="tittle title--xs faq__item-title">How does this work?</h2>
+							<p class="text text--sm faq__item-text">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -236,23 +301,21 @@
 							</p>
 						</div>
 					</div>
-				</div>
-				
-			</section>
-					
+				</div>	
+			</section>			
 		</main>
 		
-		<footer>
-			<div>
-				<div>
-					<img src="./assets/logo.svg" alt="">
-					<div>
-						<img src="./items/images/facebook.svg" alt="facebook">
-						<img src="./items/images/twitter.svg"  alt="twitter">
-						<img src="./items/images/instagramm.svg" alt="instagram">
+		<footer class="footer">
+			<div class="section">
+				<div class="footer__nav">
+					<img src="./items/logo.svg" alt="">
+					<div  class="footer__link-list">
+						<img src="./items/facebook.svg" alt="facebook">
+						<img src="./items/twitter.svg"  alt="twitter">
+						<img src="./items/instagramm.svg" alt="instagram">
           </div>
         </div>
-        <p>©smileschool 2023</p>
+        <p class="text text--sm text--light footer__text">©smileschool 2023</p>
       </div>
     </footer>
 	
