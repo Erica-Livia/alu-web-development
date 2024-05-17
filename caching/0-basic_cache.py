@@ -15,6 +15,11 @@ class BaseCaching:
 class BasicCache(BaseCaching):
     """ BasicCache """
 
+    def __init_(self):
+        """
+        Initialize the class using the parent class initializer
+        """
+        super().__init()
     def put(self, key, item):
         """
         Add an item in the cache.
