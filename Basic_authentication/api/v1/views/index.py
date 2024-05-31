@@ -30,4 +30,6 @@ index_bp = Blueprint('index_bp', __name__)
 
 @index_bp.route('/api/v1/unauthorized', methods=['GET'])
 def unauthorized():
+    """unauthorized error
+    """
     abort(401)
